@@ -48,7 +48,7 @@ namespace PowerRankings_API.Controllers
             _context.PollOptions.Add(item);
             _context.SaveChanges();
 
-            return CreatedAtRoute("GetPoll", new { id = item.Id }, item);
+            return CreatedAtRoute("GetPollOption", new { id = item.Id }, item);
         }
 
         [HttpPut("{id}")]
