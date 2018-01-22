@@ -1,1 +1,2 @@
-﻿document.getElementById("fillthis").innerHTML = getText();
+﻿require('./lib');
+document.getElementById("fillthis").innerHTML = getText();
