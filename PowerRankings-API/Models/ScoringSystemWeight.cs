@@ -11,7 +11,7 @@ namespace PowerRankings_API.Models
         public int Id { get; set; }
         public int ScoringSystemId { get; set; }
         public int Rank { get; set; }
-        public double Weight { get; set; }
+        public int Weight { get; set; }
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public virtual DateTime CreateDate { get; set; }
         public DateTime? ModifyDate { get; set; }
